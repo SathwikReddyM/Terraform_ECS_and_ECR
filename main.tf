@@ -19,7 +19,7 @@ resource "aws_ecs_task_definition" "flask_task" {
   [
     {
       "name": "flask-task",
-      "image": "907741976969.dkr.ecr.us-east-2.amazonaws.com/flask-repo:latest",
+      "image": "YOUR_Image_URL", # "907741976969.dkr.ecr.us-east-2.amazonaws.com/flask-repo:latest"
       "essential": true,
       "portMappings": [
         {
